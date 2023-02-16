@@ -1,0 +1,29 @@
+*{
+  text-align: center;
+  background-color: lightblue;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+}
+.Header{
+  height: 100px;
+  width: 100%;
+  margin :0;
+  padding: 0;
+  background-color: lightgrey;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: rgb(40, 179, 82);
+}
+
+.Cart-content{
+  display: grid;
+     grid-template-columns: repeat(3,1fr);
+     gap: 1rem;
+
+
+}
